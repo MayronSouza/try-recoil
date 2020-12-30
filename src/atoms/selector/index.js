@@ -1,6 +1,6 @@
 import { selector } from 'recoil';
 
-import usernameState from '../../atoms';
+import {usernameState} from '../../atoms';
 
 export const upperUsername = selector({
   key: 'upperUsernameState',
